@@ -22,3 +22,4 @@ This is the source code from [this tutorial](https://dev.to/brunolemos/tutorial-
       - `$ npm i -g @react-native-community/cli`
       - `$ react-native run-ios` or `react-native run-android`
 
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/write-for-CHRIST/vichurch-app)
