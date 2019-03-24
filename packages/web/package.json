@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
+    "clean": "shx rm -rf dist/*",
     "compile": "tsc -b",
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
@@ -12,12 +13,7 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ],
+  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"],
   "dependencies": {
     "@babel/polyfill": "7.4.0",
     "@vichurch/components": "0.0.1",
