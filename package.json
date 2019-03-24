@@ -6,5 +6,17 @@
     "packages": [
       "packages/*"
     ]
+  },
+  "scripts": {
+    "clean": "yarn workspaces run clean",
+	"wipe": "rimraf node_modules **/node_modules",
+    "dev": "yarn workspace @vichurch/core compile",
+    "dev:web": "yarn workspace @vichurch/web compile && concurrently --kill-others \"yarn workspace @vichurch/web compile -w\" \"yarn workspace @vichurch/web start\"",
+    "dev:mobile": "yarn workspace @vichurch/mobile compile && concurrently --kill-others \"yarn workspace @vichurch/mobile compile -w\" \"yarn workspace @vichurch/mobile start\""
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "concurrently": "4.1.0",
+    "shx": "^0.3.2"
   }
 }

@@ -1,5 +1,18 @@
 {
-  "name": "components",
+  "name": "@vichurch/components",
   "version": "0.0.1",
-  "private": true
+  "private": true,
+  "scripts": {
+    "clean": "shx rm -rf dist/*",
+    "compile": "tsc -b"
+  },
+  "dependencies": {
+    "react": "16.8.4",
+    "react-native": "0.59.1"
+  },
+  "devDependencies": {
+    "@types/react": "16.8.8",
+    "@types/react-native": "0.57.41",
+    "react-native-typescript-transformer": "^1.2.12"
+  }
 }
