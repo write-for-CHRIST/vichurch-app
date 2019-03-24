@@ -6,5 +6,12 @@
     "packages": [
       "packages/*"
     ]
+  },
+  "scripts": {
+    "dev": "yarn workspace core compile",
+    "dev:web": "yarn workspace @vichurch/web compile && concurrently --kill-others \"yarn workspace @vichurch/web compile -w\" \"yarn workspace @vichurch/web start\""
+  },
+  "devDependencies": {
+    "concurrently": "4.1.0"
   }
 }

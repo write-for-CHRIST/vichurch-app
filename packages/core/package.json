@@ -1,0 +1,10 @@
+{
+  "name": "@vichurch/core",
+  "version": "0.0.1",
+  "scripts": {
+    "compile": "tsc -b"
+  },
+  "devDependencies": {
+    "typescript": "3.3.4000"
+  }
+}

@@ -21,9 +21,7 @@ export default class App extends Component<Props> {
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.welcome}>Welcome to react-native-web + monorepo!</Text>
-        <Text style={styles.instructions}>This component is being shared between iOS, Android & Web.</Text>
-        <Text style={styles.instructions}>{instructions}</Text>
+        <Text style={styles.welcome}>Welcome to ViChurch Application</Text>
       </View>
     );
   }
